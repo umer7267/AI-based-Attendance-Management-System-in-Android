@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Register Admin"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attendance Management System"
+            android:layout_below="@id/heading"
+            android:layout_centerHorizontal="true"/>
+
+        <EditText
+            android:id="@+id/unique_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_marginTop="40dp"
+            android:padding="15dp"
+            android:background="@drawable/edittext_bg"
+            android:hint="Unique Admin ID"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/unique_id"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:background="@drawable/edittext_bg"
+            android:hint="Name"
+            android:singleLine="true"
+            android:maxLines="1"/>
+
+        <RelativeLayout
+            android:id="@+id/uni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bg"
+            android:padding="5dp"
+            android:layout_below="@id/name"
+            android:layout_marginTop="10dp">
+
+            <Spinner
+                android:id="@+id/choose_uni"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/universities"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/dept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bg"
+            android:padding="5dp"
+            android:layout_below="@id/uni"
+            android:layout_marginTop="10dp">
+
+            <Spinner
+                android:id="@+id/choose_dept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/departments"/>
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dept"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:background="@drawable/edittext_bg"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/email"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:background="@drawable/edittext_bg"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:maxLines="1"/>
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_bg"
+            android:layout_below="@id/password"
+            android:layout_marginTop="40dp"
+            android:text="Register"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "685369437594",
+    "firebase_url": "https://attendance-management-b7f83.firebaseio.com",
+    "project_id": "attendance-management-b7f83",
+    "storage_bucket": "attendance-management-b7f83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685369437594:android:a008679d01c9a626ae1e23",
+        "android_client_info": {
+          "package_name": "com.quince.fypadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685369437594-7u7a7gu88m6jo99ll3ubk2l3cjkan8jm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.quince.fypadmin",
+            "certificate_hash": "a4315787d2b19a7a1f702974cb521cfbdd8f8dac"
+          }
+        },
+        {
+          "client_id": "685369437594-h68mlropagmt7ab417guukbpc631sadi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8U70y7dF8VwlCljkP4H1HVNNntL6yzgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "685369437594-h68mlropagmt7ab417guukbpc631sadi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685369437594:android:525e590caee92ddeae1e23",
+        "android_client_info": {
+          "package_name": "com.quince.registeradmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685369437594-h68mlropagmt7ab417guukbpc631sadi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8U70y7dF8VwlCljkP4H1HVNNntL6yzgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "685369437594-h68mlropagmt7ab417guukbpc631sadi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
